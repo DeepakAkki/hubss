@@ -21,6 +21,7 @@ public static String get_data(String sh,int r,int c)
 				Row row=sheet.getRow(r);
 				Cell cell=row.getCell(c);
 				value=cell.toString();
+				//value
 	}
 	catch(Exception e)
 	{
